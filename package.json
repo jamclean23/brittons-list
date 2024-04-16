@@ -4,6 +4,7 @@
   "description": "<h1>Overview</h1> <p> A template for creating apps with Webpack and React.<br/> This template is modified from the <a href=\"https://github.com/jamclean23/react-webpack-template\">Multiple Page Webpack Template</a> and configured for a single page.  </p>",
   "main": "./src/index/index.js",
   "scripts": {
+    "deploy": ".\\scripts\\deploy_windows.bat",
     "buildDev": "webpack --config webpack.dev.js",
     "buildProd": "webpack --config webpack.prod.js",
     "watchDev": "webpack --watch --config webpack.dev.js",
